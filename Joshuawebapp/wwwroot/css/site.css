@@ -1,0 +1,55 @@
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+    margin-bottom: 60px;
+    background-image: url('../images/blue.jpg');
+    background-size: cover;
+    background-position: center;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: white;
+    color:aliceblue;
+}
+.reviews-container {
+    position: fixed;
+    bottom: 0;
+    text-align: center; /* Center align the text horizontally */
+}
+
+
+.product-info button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 10px; /* Increase padding for better spacing */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.our-work-image {
+    padding: 25px;
+}
+
+.rounded-image {
+    border-radius: 10px; /* Adjust the value for desired rounding */
+}
+

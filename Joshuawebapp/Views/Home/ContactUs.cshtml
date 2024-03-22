@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Contact Us";
+}
+<style>
+
+    .contact-hero {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-image: url("path/to/wood.jpg"); /* Replace with your image path */
+        background-size: cover;
+        background-position: center;
+        padding: 50px;
+        text-align: center;
+        color: white; /* Text color for hero section */
+    }
+
+        .contact-hero h1,
+        .contact-hero p {
+            color: black;
+            font-weight: bold; /* Make header and paragraph bold */
+        }
+
+    .contact-info {
+        background-color: #f5f5f5; /* Light gray background for contact info */
+        padding: 20px;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 50px; /* Add spacing between sections */
+    }
+
+    .contact-image {
+        text-align: center;
+        margin-top: 50px; /* Add spacing between sections */
+    }
+
+    .btn-primary {
+        padding: 10px 20px; /* Reduce button size */
+    }
+</style>
+
+<div class="contact-hero">
+    <h1 class="display-4">KhumaloCraft Emporium</h1>
+    <p style="line-height: 1.5;">We'd love to hear from you!</p>
+    <a href="mailto:KhumaloCraft@gmail.com" class="btn btn-primary">Email Us Now</a>
+</div>
+
+
+
+<div class="contact-image">
+    <img src="~/images/email.jpg" alt="Contact Us" class="img-fluid" style="width: 700px;">
+</div>
